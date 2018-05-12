@@ -1,4 +1,4 @@
-require_parent "./student/rb"
+require_relative "./student/rb"
 
 class ChattyStudent < Student
 
@@ -8,7 +8,7 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    super 
+    super
     puts "Pick me!"
   end
 
